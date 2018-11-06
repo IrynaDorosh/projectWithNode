@@ -1,7 +1,23 @@
 /*//@import "src/scss/mainpage";*/
 
-.photo-container{
-  width: 200px;
-  height: 400px;
-  background-color: #fe5847;
+.main-container{
+  display: flex;
+  flex-direction: row;
+  background-color: #f0d3cd;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin: -5px;
+  padding: 0;
 }
+
+.photo-container{
+  width: 300px;
+  height: 200px;
+  background-color: #fe9384;
+  margin: 30px;
+}
+
+
+
+
+

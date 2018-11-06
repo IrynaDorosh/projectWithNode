@@ -1,0 +1,70 @@
+@import "./src/scss/_variables.scss";
+
+.body-style{
+  background-color: $b-color;
+}
+
+.header-container{
+  display: flex;
+  justify-content: center;
+
+}
+.header-title{
+  color: $main-text-color;
+  font-family: 'Google Sans',Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+  font-size: 1.5rem;
+  width: 1030px;
+}
+
+.main-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0px;
+  padding: 0;
+}
+
+.photo-container {
+  width: 250px;
+  height: 285px;
+  //background-color: #fe9384;
+  margin: 5px;
+  flex-shrink: 0;
+}
+
+.button-with-months{
+
+  height: 30px;
+  line-height: 30px;
+  background-color: $second-color;
+  text-align: center;
+  border-radius: 7px;
+  font-family: 'Google Sans',Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+  font-size: 0.8rem;
+  margin-bottom: 5px;
+}
+
+figure{
+  width: 250px;
+  height: 250px;
+
+  margin: 0 0 0 0; /* Отступ слева */
+  /*background: #23a50c; !* Цвет фона *!*/
+  /*border-radius: 0px; !* Радиус скругления *!*/
+  overflow: hidden;
+}
+
+figure img{
+  width: 100%; /* Ширина изображений */
+  height: 100%; /* Высота изображении */
+  object-fit: cover; /* Вписываем фотографию в область */
+}
+figure:first-child {
+  margin-left: 0; /* Убираем отступ для первого элемента */
+}
+
+
+
+
+
+
