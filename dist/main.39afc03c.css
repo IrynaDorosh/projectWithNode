@@ -1,6 +1,55 @@
 @charset "UTF-8";
+.navigator-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0px;
+  padding: 0;
+}
+
+.navigator-button {
+  width: 74px;
+  height: 25px;
+  line-height: 25px;
+  background-color: rgba(255, 47, 51, 0.49);
+  margin: 3px;
+  flex-shrink: 0;
+  border-radius: 7px;
+  text-align: center;
+  font-size: 0.8rem;
+  font-family: "Google Sans", Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+}
+
+.subheader-bunner {
+  width: 1030px;
+  height: 250px;
+  background-color: rgba(255, 47, 51, 0.49);
+  display: flex;
+  margin-top: 10px;
+}
+
+.subh-photo-container {
+  width: 530px;
+  height: 250px;
+  background-color: grey;
+}
+
+.subh-text {
+  width: 500px;
+  color: rgba(186, 19, 23, 0.75);
+  font-family: "Google Sans", Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+  font-size: 1.2rem;
+  text-align: left;
+  padding-top: 50px;
+  padding-left: 150px;
+}
+
+.subheader-container {
+  justify-content: center;
+}
+
 .body-style {
-  background-color: #f0d3cd;
+  background-color: rgba(240, 211, 54, 0.25);
 }
 
 .header-container {
@@ -10,7 +59,7 @@
 
 .header-title {
   color: rgba(186, 19, 23, 0.75);
-  font-family: "Google Sans", Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+  font-family: "Google Sans", Nanum PenRoboto, RobotoDraft, Helvetica, Arial, sans-serif;
   font-size: 1.5rem;
   width: 1030px;
 }
@@ -46,8 +95,6 @@ figure {
   height: 250px;
   margin: 0 0 0 0;
   /* Отступ слева */
-  /*background: #23a50c; !* Цвет фона *!*/
-  /*border-radius: 0px; !* Радиус скругления *!*/
   overflow: hidden;
 }
 

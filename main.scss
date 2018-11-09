@@ -1,4 +1,6 @@
 @import "./src/scss/_variables.scss";
+@import "./src/scss/_01month.scss";
+
 
 .body-style{
   background-color: $b-color;
@@ -7,11 +9,11 @@
 .header-container{
   display: flex;
   justify-content: center;
-
 }
+
 .header-title{
   color: $main-text-color;
-  font-family: 'Google Sans',Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+  font-family: 'Google Sans', Nanum PenRoboto,RobotoDraft,Helvetica,Arial,sans-serif;
   font-size: 1.5rem;
   width: 1030px;
 }
@@ -47,10 +49,7 @@
 figure{
   width: 250px;
   height: 250px;
-
   margin: 0 0 0 0; /* Отступ слева */
-  /*background: #23a50c; !* Цвет фона *!*/
-  /*border-radius: 0px; !* Радиус скругления *!*/
   overflow: hidden;
 }
 
