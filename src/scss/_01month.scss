@@ -9,11 +9,11 @@
 }
 
 .navigator-button{
-  width: 74px;
+  width: 72px;
   height: 25px;
   line-height: 25px;
-  background-color: $second-color;
-  margin: 3px;
+  border: 1px  solid white;
+  margin: 2px;
   flex-shrink: 0;
   border-radius: 7px;
   text-align: center;
@@ -21,19 +21,16 @@
   font-family: "Google Sans", Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
 }
 
-.subheader-bunner {
+.subheader-area {
   width: 1030px;
   height: $subtitle-height;
   background-color: $second-color;
   display: flex;
-  margin-top: 10px;
-}
+  margin-top: -43px;
+  justify-content: center;
+ }
 
-.subh-photo-container{
-  width: 530px;
-  height: $subtitle-height;
-  background-color: grey;
-}
+
 
 .subh-text{
   width: 500px;
@@ -41,7 +38,7 @@
   font-family: "Google Sans", Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
   font-size: 1.2rem;
   text-align: left;
-  padding-top: 50px;
+  padding-top: 76px;
   padding-left: 150px;
   //background-color: yellow;
 }
